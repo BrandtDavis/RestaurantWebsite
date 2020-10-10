@@ -1,0 +1,38 @@
+.topbar table{
+  width: 80%;
+  margin-top: 35px;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #ff3333;
+  border-collapse: collapse;
+  float: left;
+}
+
+.topbar th{
+  font-family: 'Julius Sans One', sans-serif;
+  letter-spacing: 5px;
+  text-align: center;
+  float: center;
+  vertical-align: middle;
+}
+
+.homeButton {
+  padding-left: 32px;
+}
+
+.topbar th a{
+  display: block;
+  height: 15px;
+  padding: 15px 15px;
+  text-decoration: none;
+  color: #1a0000;
+}
+
+.topbar th a:hover{
+  color: #ff3333;
+}
+
+.topbar th:hover{
+  background-color: #1a0000;
+  cursor: pointer;
+}
