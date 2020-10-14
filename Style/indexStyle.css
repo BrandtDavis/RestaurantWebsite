@@ -1,5 +1,6 @@
 body {
-  background-color: #504c4c;
+  background-image: url(../burger1.jpg);
+  background-color: #cccccc;
   font-family: 'Julius Sans One', sans-serif;
 }
 
@@ -12,15 +13,20 @@ body {
 
 .topColumn h1 {
   text-align: center; 
-}
+} 
+
 .logo {
   text-align: center;
   padding-top: 75px;
 }
 
 img {
-    height: 200px;
-    width: 250px;
+  height: 200px;
+  width: 250px;
 }
 
-
+.BurgerImg {
+  text-align: center;
+  height: 1020px;
+  width: 1750px;
+}
