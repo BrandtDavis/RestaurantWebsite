@@ -1,5 +1,5 @@
 body {
-  background-image: url(../burger1.jpg);
+  background-image: url(../Images/burger1.jpg);
   background-color: #cccccc;
   font-family: 'Julius Sans One', sans-serif;
 }
@@ -35,7 +35,8 @@ img {
   background-color: antiquewhite;
   font-weight: bolder;
   text-align: center;
-  padding: 10px;
+  padding: 15px;
+  padding-bottom: 25px;
   margin-right: auto;
   margin-left: auto;
   margin-top: 100px;
