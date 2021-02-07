@@ -1,5 +1,6 @@
 body {
-  background-image: url(../Images/burger1.jpg);
+  background-image: url(../Images/FraserRiverBackground.jpg);
+  background-size: auto;
   background-color: #cccccc;
   font-family: 'Julius Sans One', sans-serif;
 }
@@ -32,16 +33,32 @@ img {
 }
 
 .description {
-  background-color: antiquewhite;
+  background-color: #7e8896;
   font-weight: bolder;
   text-align: center;
   padding: 15px;
   padding-bottom: 25px;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 100px;
-  opacity: .85;
+  margin-top: 80px;
+  opacity: .95;
   width: 300px;
-  height: 300px;
+  height: 320px;
   border-radius: 20px;
+}
+
+.caption {
+  font-size: 8pt;
+}
+
+button {
+  opacity: .99;
+  background-color: #1152ad;
+  border: solid;
+  letter-spacing: 1px;
+  font-size: 18pt;
+  font-weight: 600;
+  width: 150px;
+  height: 40px;
+  margin-top: 15px;
 }
