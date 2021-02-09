@@ -12,10 +12,10 @@
       <div class="topbar">
         <table>      
           <tr>
-            <th><a href="index.html"> Home </a></th>
-            <th><a href="fraserGoldRush.html"> The Fraser Gold Rush </a></th>
-            <th><a href="CaribooGoldRush.html"> The Cariboo Gold Rush </a></th>
-            <th><a href="news.html"> Notable Info </a></th>
+            <th class="active-th"><a href="index.html"><span class="active-a">Home</span></a></th>
+            <th><a href="history.html"> History </a></th>
+            <th><a href="placerMining.html"> Placer Mining </a></th>
+            <th><a href="modernMining.html"> Modern Mining </a></th>
             <th><a href="References.html"> References </a></th>
           </tr>
         </table>
@@ -29,14 +29,18 @@
         This website has been made for GLGY 301 at the University of Calgary
         <br>
         <br>
-        It will cover some major gold-related events in the history of the Candadian Cordillera
+        It will cover the topic of gold Candadian Cordillera
         <br>
         <br>
-        ()
+        By clicking the button below, you will close this popup and you will have to relaod the page if you would 
+        like to see it again.
         <br>
-        <span class="caption"> (This is an inline citation for the background image) </span>
         <br>
-        <button type="submit" onclick="closePopup()"> Close </button>
+        <span class="caption">A beautiful view of the Fraser Canyon in British Columbia (Beugelink, n.d.)</span>
+        <br>
+        <span class="caption"> (This is a citation and caption for the background image) </span>
+        <br>
+        <button id="closedPopup" type="submit" onclick="closePopup()"> Close </button>
       </div>
 
         <div class="topColumn">
@@ -54,5 +58,12 @@
           <div class="column">
           </div>
         </div>
+
+        <script>
+          function closePopup() {
+            document.getElementById("descriptionPopup").style.display = "none";
+
+          }
+        </script>
       </body>
 </html>
