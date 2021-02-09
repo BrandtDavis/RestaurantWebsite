@@ -18,6 +18,13 @@
   vertical-align: middle;
 }
 
+.active-th {
+  background-color: #c2c6cc;
+}
+
+.active-a {
+  color: #182b4a;
+}
 .homeButton {
   padding-left: 32px;
 }
