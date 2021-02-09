@@ -1,0 +1,47 @@
+.topbar table{
+  width: 80%;
+  margin-top: 35px;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #182b4a;
+  border-collapse: collapse;
+  float: left;
+  box-shadow: 7px 7px 15px;
+}
+
+.topbar th{
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: bolder;
+  letter-spacing: 5px;
+  text-align: center;
+  float: center;
+  vertical-align: middle;
+}
+
+.active-th {
+  background-color: #c2c6cc;
+}
+
+.active-a {
+  color: #182b4a;
+}
+.homeButton {
+  padding-left: 32px;
+}
+
+.topbar th a{
+  display: block;
+  height: 15px;
+  padding: 15px 15px;
+  text-decoration: none;
+  color: #c2c6cc;
+}
+
+.topbar th a:hover{
+  color: #182b4a;
+}
+
+.topbar th:hover{
+  background-color: #c2c6cc;
+  cursor: pointer;
+}
